@@ -1,0 +1,10 @@
+.auth-form {
+  $form: &;
+
+  max-width: 50rem;
+  width: 100%;
+  padding: 2.5rem;
+  border-radius: .5rem;
+  background: $colorWhite;
+  box-shadow: 0 0 1.5rem rgba($colorBlack, .1);
+}

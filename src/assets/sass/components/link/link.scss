@@ -1,0 +1,18 @@
+.link {
+  color: $colorDark;
+  text-decoration: none;
+
+  transition: color .2s ease-in-out;
+
+
+  &--primary {
+    color: $colorBlueLight;
+    &:hover {
+      color: $colorBlue;
+    }
+  }
+
+  &--underline {
+    text-decoration: underline;
+  }
+}

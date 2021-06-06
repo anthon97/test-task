@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: $fontBase;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: $colorDark;
+}
+
+.app {
+  &__layout {
+    min-height: 100vh;
+
+    &--auth {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      background: rgba($colorPurpleLight, .5);
+    }
+  }
+}
+
+@import './helpers';

@@ -1,0 +1,40 @@
+/***
+MARGIN CLASS HELPER
+***/
+
+.m {
+  &l {
+    &-auto {
+      margin-left: auto;
+    }
+  }
+}
+
+
+/***
+DISPLAY CLASS HELPER
+***/
+.d {
+  &-block {
+    display: block;
+  }
+}
+
+/***
+JUSTIFY-CONTENT CLASS HELPER
+***/
+
+.jc {
+  &-between {
+    justify-content: space-between;
+  }
+}
+
+/***
+TEXT CLASS HELPER
+***/
+.text {
+  &-center {
+    text-align: center;
+  }
+}
